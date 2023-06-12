@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:finder/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -7,17 +8,16 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Finder',
       theme: ThemeData(
-        colorScheme:
-            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 47, 1, 1)),
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color.fromARGB(255, 47, 1, 1)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Finder Home Page'),
+      home: const MyHomePage(title: 'Finder'),
     );
   }
 }
@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Push the button this many times:',
             ),
             Text(
               '$_counter',
@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
