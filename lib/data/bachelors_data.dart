@@ -8,6 +8,16 @@ List<String> maleFirstNames = [
   "Michael",
   "Robert",
   "David",
+  "Arthur",
+  "Gauthier",
+  "Marius",
+  "Nicolas",
+  "Maxime",
+  "Guillaume",
+  "Florian",
+  "Quentin",
+  "Dorian",
+  "Théo",
 ];
 
 List<String> femaleFirstNames = [
@@ -15,6 +25,17 @@ List<String> femaleFirstNames = [
   "Jennifer",
   "Linda",
   "Patricia",
+  "Aurélie",
+  "Laëtitia",
+  "Aline",
+  "Margot",
+  "Cécile",
+  "Apolline",
+  "Clémence",
+  "Sandra",
+  "Stacey",
+  "Julie",
+  "Melissa",
 ];
 
 List<String> avatarImages = [
