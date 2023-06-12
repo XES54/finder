@@ -5,10 +5,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      appBar: MyAppBar(title: 'Finder Home Page'),
+      appBar: MyAppBar(title: 'Finder'),
       body: Center(
         child: Text(
-          'Bonjour, monde!',
+          'Test !',
           style: TextStyle(fontSize: 24),
         ),
       ),
