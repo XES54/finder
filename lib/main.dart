@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:finder/screens/home_screen.dart';
+import 'package:finder/models/bachelor.dart';
+import 'package:finder/bachelors_data.dart';
 
 void main() {
   runApp(const MyApp());
 }
+
+List<Bachelor> bachelors = generateBachelors();
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
